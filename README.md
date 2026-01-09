@@ -27,7 +27,7 @@ Before the main build, you need to run:
 ### List Screen
 
 1. **State Preservation**: Scroll position is maintained seamlessly across screen rotations.
-2. **Content Options**: Supports fetching both 'top-headlines' and 'all' news categories.
+2. **Content Options**: Supports fetching both 'top-headlines' and 'everything' news categories.
 3. **Localization**: Fetches news exclusively from the US region.
 
 ### Detail Screen
