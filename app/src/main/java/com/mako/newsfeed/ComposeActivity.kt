@@ -4,7 +4,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.core.view.WindowCompat
 import com.mako.newsfeed.navigation.NavGraph
-import com.mako.newsfeed.ui.theme.NewsFeedTheme
+import com.mako.newsfeed.core.theme.NewsFeedTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

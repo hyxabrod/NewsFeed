@@ -1,7 +1,8 @@
-package com.mako.newsfeed.ui.theme
+package com.mako.newsfeed.core.theme
 
 import android.annotation.TargetApi
 import android.app.Activity
+import android.graphics.Color
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -37,7 +38,7 @@ fun NewsFeedTheme(
         SideEffect {
             val window = (view.context as Activity).window
             if (Build.VERSION.SDK_INT < 35) { // Deprecated in API 35
-                window.statusBarColor = android.graphics.Color.TRANSPARENT
+                window.statusBarColor = Color.TRANSPARENT
             }
             WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = !darkTheme
         }

@@ -1,4 +1,4 @@
-package com.mako.newsfeed.ui
+package com.mako.newsfeed.presentation
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background

@@ -1,6 +1,5 @@
 package com.mako.newsfeed.presentation.screen
 
-import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import android.webkit.SslErrorHandler
@@ -47,7 +46,7 @@ import com.mako.newsfeed.core.ui.OfflineBanner
 import com.mako.newsfeed.presentation.viewmodel.ArticleDetailsEffect
 import com.mako.newsfeed.presentation.viewmodel.ArticleDetailsIntent
 import com.mako.newsfeed.presentation.viewmodel.ArticleDetailsViewModel
-import com.mako.newsfeed.ui.theme.Dimens
+import com.mako.newsfeed.core.theme.Dimens
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

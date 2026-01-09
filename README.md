@@ -23,6 +23,7 @@ Before the main build, you need to run:
    - Hilt
    - Ktor
 3. **Architecture**: Clean Architecture principles.
+4. **Offline node**: Supported for the List screen.
 
 ### List Screen
 

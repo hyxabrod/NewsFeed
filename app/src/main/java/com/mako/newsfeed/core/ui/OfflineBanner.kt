@@ -10,7 +10,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
-import com.mako.newsfeed.ui.theme.Dimens
+import com.mako.newsfeed.core.theme.Dimens
 
 @Composable
 fun OfflineBanner(modifier: Modifier = Modifier, message: String = "Offline Mode") {

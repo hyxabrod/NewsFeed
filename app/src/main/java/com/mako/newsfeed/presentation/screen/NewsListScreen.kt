@@ -39,7 +39,7 @@ import com.mako.newsfeed.presentation.component.NewsItem
 import com.mako.newsfeed.presentation.viewmodel.NewsFeedListEffect
 import com.mako.newsfeed.presentation.viewmodel.NewsFeedListIntent
 import com.mako.newsfeed.presentation.viewmodel.NewsListViewModel
-import com.mako.newsfeed.ui.theme.Dimens
+import com.mako.newsfeed.core.theme.Dimens
 import kotlinx.coroutines.flow.distinctUntilChanged
 
 @OptIn(ExperimentalMaterial3Api::class)

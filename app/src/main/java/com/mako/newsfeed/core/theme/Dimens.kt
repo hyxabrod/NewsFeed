@@ -1,4 +1,4 @@
-package com.mako.newsfeed.ui.theme
+package com.mako.newsfeed.core.theme
 
 import androidx.compose.ui.unit.dp
 

@@ -22,7 +22,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import coil3.compose.SubcomposeAsyncImage
 import com.mako.newsfeed.core.fixUrl
 import com.mako.newsfeed.core.toArticleReadableDateTime
-import com.mako.newsfeed.ui.theme.Dimens
+import com.mako.newsfeed.core.theme.Dimens
 
 @Composable
 fun NewsItem(

@@ -9,7 +9,7 @@ import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.ui.NavDisplay
 import com.mako.newsfeed.presentation.screen.ArticleDetailsScreen
 import com.mako.newsfeed.presentation.screen.NewsListScreen2
-import com.mako.newsfeed.ui.SplashScreen
+import com.mako.newsfeed.presentation.SplashScreen
 import kotlinx.serialization.Serializable
 
 @Serializable
