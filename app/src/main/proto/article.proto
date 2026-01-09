@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "com.mako.newsfeed.data.remote.proto";
+option java_multiple_files = true;
+
+message ArticleProto {
+  string title = 1;
+  string url = 2;
+  string content = 3;
+}
+
+message ArticleSaveResponse {
+  bool success = 1;
+}
+
+service ArticleSaveService {
+  rpc SendArticle (ArticleProto) returns (ArticleSaveResponse);
+}
+
